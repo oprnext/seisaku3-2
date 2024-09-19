@@ -10,7 +10,7 @@ uri="http://java.sun.com/jsp/jstl/fmt" %>
 <link rel="stylesheet" href="" />
 </head>
 <body>
-<h1>天気a</h1>
+<h1>天気</h1>
 <<c:out value="${weatherData }"/>
 
 
