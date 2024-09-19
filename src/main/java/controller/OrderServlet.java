@@ -32,7 +32,7 @@ public class OrderServlet extends HttpServlet {
 		System.out.println(productId);
 		System.out.println(quantity);
 		
-		OrderDao dao = DaoFactory2.createOrderDao();
+    OrderDao dao = DaoFactory2.createOrderDao();
 		
 		dao.insert(productId,quantity);
 		

@@ -3,7 +3,10 @@ package dao2;
 public interface OrderDao {
     
 
-     void insert (int productId, int quantity);
+     void insert (int productId, int quantity) ;
+			// TODO 自動生成されたメソッド・スタブ
+			
+		
 
 		
 
